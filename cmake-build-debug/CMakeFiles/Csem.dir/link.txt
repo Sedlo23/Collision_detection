@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Csem.dir/main.c.o  -o Csem 
+/usr/bin/cc -g   CMakeFiles/Csem.dir/main.c.o CMakeFiles/Csem.dir/matrix.c.o CMakeFiles/Csem.dir/list.c.o CMakeFiles/Csem.dir/node.c.o  -o Csem -lm 

@@ -1,0 +1,11 @@
+Available frequencies:
+0 93400
+1 104600
+2 139700
+3 154600
+Transmission radius:
+15
+Transmitters:
+0 2 6
+1 4 5
+2 8 9

@@ -76,7 +76,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jfs/CLionProjects/Csem/list.c">
+			<Option target="Csem"/>
+		</Unit>
+		<Unit filename="/home/jfs/CLionProjects/Csem/list.h">
+			<Option target="Csem"/>
+		</Unit>
 		<Unit filename="/home/jfs/CLionProjects/Csem/main.c">
+			<Option target="Csem"/>
+		</Unit>
+		<Unit filename="/home/jfs/CLionProjects/Csem/matrix.c">
+			<Option target="Csem"/>
+		</Unit>
+		<Unit filename="/home/jfs/CLionProjects/Csem/matrix.h">
+			<Option target="Csem"/>
+		</Unit>
+		<Unit filename="/home/jfs/CLionProjects/Csem/node.c">
+			<Option target="Csem"/>
+		</Unit>
+		<Unit filename="/home/jfs/CLionProjects/Csem/node.h">
 			<Option target="Csem"/>
 		</Unit>
 		<Unit filename="/home/jfs/CLionProjects/Csem/CMakeLists.txt">

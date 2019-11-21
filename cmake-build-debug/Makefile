@@ -123,6 +123,33 @@ Csem/fast:
 	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/build
 .PHONY : Csem/fast
 
+list.o: list.c.o
+
+.PHONY : list.o
+
+# target to build an object file
+list.c.o:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/list.c.o
+.PHONY : list.c.o
+
+list.i: list.c.i
+
+.PHONY : list.i
+
+# target to preprocess a source file
+list.c.i:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/list.c.i
+.PHONY : list.c.i
+
+list.s: list.c.s
+
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.c.s:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/list.c.s
+.PHONY : list.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/main.c.s
 .PHONY : main.c.s
 
+matrix.o: matrix.c.o
+
+.PHONY : matrix.o
+
+# target to build an object file
+matrix.c.o:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/matrix.c.o
+.PHONY : matrix.c.o
+
+matrix.i: matrix.c.i
+
+.PHONY : matrix.i
+
+# target to preprocess a source file
+matrix.c.i:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/matrix.c.i
+.PHONY : matrix.c.i
+
+matrix.s: matrix.c.s
+
+.PHONY : matrix.s
+
+# target to generate assembly for a file
+matrix.c.s:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/matrix.c.s
+.PHONY : matrix.c.s
+
+node.o: node.c.o
+
+.PHONY : node.o
+
+# target to build an object file
+node.c.o:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/node.c.o
+.PHONY : node.c.o
+
+node.i: node.c.i
+
+.PHONY : node.i
+
+# target to preprocess a source file
+node.c.i:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/node.c.i
+.PHONY : node.c.i
+
+node.s: node.c.s
+
+.PHONY : node.s
+
+# target to generate assembly for a file
+node.c.s:
+	$(MAKE) -f CMakeFiles/Csem.dir/build.make CMakeFiles/Csem.dir/node.c.s
+.PHONY : node.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Csem"
 	@echo "... edit_cache"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matrix.o"
+	@echo "... matrix.i"
+	@echo "... matrix.s"
+	@echo "... node.o"
+	@echo "... node.i"
+	@echo "... node.s"
 .PHONY : help
 
 
